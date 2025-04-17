@@ -41,18 +41,10 @@ The ETL package automates the following:
 - 📤 Redirected duplicates to a separate destination for further review
 
 ## 📁 Folder Structure
-1. you have "RetailStore" folder this .
-2. you have "DW_RetailStore.sql" file this file is database has all destinations you need run it on your Microsoft SQl Server.
-3. you have .
+1. You have a folder named "RetailStore". Download this folder as-is and open it using your SSIS development tool (e.g., SQL Server Integration Services Tools in Visual Studio).
+2. You have a file named "DW_RetailStore.sql". This file contains the database with all the destination tables you need. Run it on your Microsoft SQL Server to create the database.
+3. All the source files you need are located in the "RetailStoreData" folder.
 
-## 🚀 How to Run
-
-1. Open **SQL Server Data Tools (SSDT)** or **Visual Studio** with the SSIS extension.
-2. Load the `Package.dtsx` file into your SSIS project.
-3. Make sure your Excel and CSV source file paths are updated correctly.
-4. Ensure the destination database (`RetailDW`) exists and has the required tables.
-5. Execute the package and monitor the progress.
-6. Review redirected error rows and duplicate logs (if applicable).
 
 ## ✅ Outcome
 
