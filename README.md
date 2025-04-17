@@ -41,7 +41,9 @@ The ETL package automates the following:
 - 📤 Redirected duplicates to a separate destination for further review
 
 ## 📁 Folder Structure
-
+1. you have "RetailStore" folder this .
+2. you have "DW_RetailStore.sql" file this file is database has all destinations you need run it on your Microsoft SQl Server.
+3. you have .
 
 ## 🚀 How to Run
 
